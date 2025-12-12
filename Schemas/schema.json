@@ -1,0 +1,12 @@
+{
+  "transaction_id": "string",
+  "user_id": "string",
+  "timestamp": "datetime",
+  "amount": "float",
+  "merchant_id": "string",
+  "location": "string",
+  "is_international": "int",
+  "velocity_1h": "int",
+  "device_type": "string",
+  "label": "int"
+}
