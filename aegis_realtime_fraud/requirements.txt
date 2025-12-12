@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+scikit-learn
+numpy
+pandas
+joblib
+tensorflow
+streamlit
+requests

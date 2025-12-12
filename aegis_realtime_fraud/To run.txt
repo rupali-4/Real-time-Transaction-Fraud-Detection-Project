@@ -1,0 +1,17 @@
+Run this on anaconda prompt
+
+window 1
+train the model: python src/model/train.py --data data/transactions.csv --out models
+start the model API: uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
+
+
+get a new window here after for each and every one
+
+window 3
+run procedure.py : python src/producer.py --data data/transactions.csv --rate 2
+
+window 3
+optional to check recent entry in new window: python src/consumer.py
+
+window 4
+to deploy use new window : streamlit run src/dashboard.py
